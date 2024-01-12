@@ -21,7 +21,7 @@ int lim;
     s[++i] =
         '\0'; /* we read something and reached lim-1 or EOF: terminate string */
 
-  return (i);
+  return i;
 }
 
 /* from fasterthanli.me - my version returns length of dst */
@@ -85,7 +85,7 @@ uint32_t *dst;
     i += len;
   }
 
-  return (j);
+  return j;
 }
 
 int main() {
@@ -117,5 +117,5 @@ int main() {
     }
   }
 
-  return (0);
+  return 0;
 }

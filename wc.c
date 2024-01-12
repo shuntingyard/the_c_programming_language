@@ -21,5 +21,5 @@ int main() {
   }
   printf("%7d %7d %7d\n", nl, nw, nc);
 
-  return (0);
+  return 0;
 }
