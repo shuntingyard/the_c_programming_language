@@ -1,3 +1,4 @@
 *.o
 getline
+strcmp
 wc
