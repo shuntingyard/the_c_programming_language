@@ -1,6 +1,7 @@
 *.o
 dateattr
 getline
+maxline2
 strcmp
 strcpyr
 strprnr
