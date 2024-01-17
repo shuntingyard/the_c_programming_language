@@ -1,6 +1,6 @@
 /* reverse copy character string */
-
 #include <stdio.h>
+
 int main(int argc, char **argv) {
   /* arg check */
   if (argc < 2) {

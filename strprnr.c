@@ -1,6 +1,6 @@
 /* reverse print string, char by char */
-
 #include <stdio.h>
+
 int main(int argc, char **argv) {
   /* arg check */
   if (argc < 2) {

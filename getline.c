@@ -1,4 +1,5 @@
-/* see if the original function syntax passes in more modern standards - it does
+/* see if the original function syntax passes with more modern standards - it
+ * does
  */
 #include <stdint.h>
 #include <stdio.h>

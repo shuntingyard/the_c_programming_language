@@ -56,8 +56,8 @@ int get_day_index(int year, int dayinyear) {
 
   int day_index, days, y;
 
-  /* TODO: needs circle detection (O(n) noticeable (seconds!) for years in the
-   * 10^8 range or above) and guards against overflow */
+  /* TODO: needs circle detection - O(n) noticeable (seconds!) - for years in
+   * the 10^8 range or above) and guards against overflow */
   if (year < WEEKDAY_ANCHOR) {
     days = 6; /* starting on Sun: 6 */
     for (y = year; y < WEEKDAY_ANCHOR; y++)
