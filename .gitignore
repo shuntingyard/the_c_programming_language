@@ -2,4 +2,6 @@
 dateattr
 getline
 strcmp
+strcpyr
+strprnr
 wc
